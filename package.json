@@ -1,0 +1,24 @@
+{
+  "name": "techdoc",
+  "version": "1.0.0",
+  "description": "a cli tool to generate documentation for developers, users, and others also.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unstoppable-tanmay/techdoc.git"
+  },
+  "keywords": [
+    "techdoc",
+    "documentation",
+    "readme"
+  ],
+  "author": "Tanmay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unstoppable-tanmay/techdoc/issues"
+  },
+  "homepage": "https://github.com/unstoppable-tanmay/techdoc#readme"
+}
