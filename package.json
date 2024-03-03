@@ -2,10 +2,15 @@
   "name": "techdoc",
   "version": "1.0.0",
   "description": "a cli tool to generate documentation for developers, users, and others also.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "node index.js"
+    "build": "tsc",
+    "start": "nodemon src/index.ts hello"
   },
+  "bin": {
+    "techdoc": "./src/index.js"
+  },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/unstoppable-tanmay/techdoc.git"
@@ -20,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/unstoppable-tanmay/techdoc/issues"
   },
-  "homepage": "https://github.com/unstoppable-tanmay/techdoc#readme"
+  "homepage": "https://github.com/unstoppable-tanmay/techdoc#readme",
+  "dependencies": {
+    "cli-color": "^2.0.4",
+    "dree": "^4.7.0",
+    "inquirer": "^8.0.0",
+    "openai": "^4.28.4"
+  }
 }
