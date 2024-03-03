@@ -49,6 +49,10 @@ techdoc init
 
 This will prompt you to select a template or use AI to generate a README file for your project.
 
+For AI generation you have to pass your `Open AI` api key which is free for some time
+
+![alt text](techdoc-VisualStudioCode2024-03-0317-10-11-ezgif.com-video-to-webp-converter.webp)
+
 ## Detailed Documentation 📚
 
-After initiation, you have to fill the details asked like details of project and exclude folders and others . Once done with that, you can generate documentation by selecting one, later you can also generate other document by running ```techdoc  init```
+After initiation, you have to fill the details asked like details of project and exclude folders and others . Once done with that, you can generate documentation by selecting one, later you can also generate other document by running `techdoc  init`

@@ -1,6 +1,6 @@
 {
   "name": "techdoc",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a cli tool to generate documentation for developers, users, and others also.",
   "main": "src/index.js",
   "scripts": {
